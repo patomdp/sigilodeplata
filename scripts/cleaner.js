@@ -5,7 +5,7 @@ window.onload = function () {
 
 function removerSpam() {
     // Buscar la sección en el body que contiene el enlace
-    var element = document.querySelector('body section.display-7 a[href*="mobiri.se"]').closest('section');
+    var element = document.querySelector('body a[href*="mobiri.se"]').closest('section');
     // console.log('element', element);
 
     // Verificar si se encontró el elemento y eliminarlo si es necesario
